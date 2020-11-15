@@ -1,3 +1,8 @@
+[core]
+        autocrlf = true
+        safecrlf = false
 [user]
         name = Alexander Makarov
         email = sam@rmcreative.ru
+[pull]
+	rebase = true
