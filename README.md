@@ -1,1 +1,3 @@
-git config --global core.excludesfile ~/src/dotfiles/.gitignore
+# samdark configs
+
+This repository contains various configs I use.
