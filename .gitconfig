@@ -2,14 +2,15 @@
     gpgsign = true                                                                                                                                                                      
     verbose = true  
 [core]
-        autocrlf = true
-        safecrlf = false
+    autocrlf = true
+    safecrlf = false
+    excludesfile = ~/.gitignore
 [user]
-        signingkey = 3617B79C6A325E4A
-        name = Alexander Makarov
-        email = sam@rmcreative.ru
+    signingkey = 3617B79C6A325E4A
+    name = Alexander Makarov
+    email = sam@rmcreative.ru
 [pull]
-	rebase = true
+    rebase = true
 [column]                                                                                                                                                                                
     ui = auto                                                                                                                                                                           
 [branch]                                                                                                                                                                                
