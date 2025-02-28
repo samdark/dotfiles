@@ -1,8 +1,43 @@
+[commit]                                                                                                                                                                                
+    gpgsign = true                                                                                                                                                                      
+    verbose = true  
 [core]
         autocrlf = true
         safecrlf = false
 [user]
+        signingkey = 3617B79C6A325E4A
         name = Alexander Makarov
         email = sam@rmcreative.ru
 [pull]
 	rebase = true
+[column]                                                                                                                                                                                
+    ui = auto                                                                                                                                                                           
+[branch]                                                                                                                                                                                
+    sort = -committerdate                                                                                                                                                               
+[tag]                                                                                                                                                                                   
+    sort = version:refname                                                                                                                                                              
+[init]                                                                                                                                                                                  
+    defaultBranch = master                                                                                                                                                              
+[diff]                                                                                                                                                                                  
+    algorithm = histogram                                                                                                                                                               
+    colorMoved = plain                                                                                                                                                                  
+    mnemonicPrefix = true                                                                                                                                                               
+    renames = true                                                                                                                                                                      
+[push]                                                                                                                                                                                  
+    autoSetupRemote = true                                                                                                                                                              
+    followTags = true                                                                                                                                                                   
+[fetch]                                                                                                                                                                                 
+    prune = true                                                                                                                                                                        
+    pruneTags = true                                                                                                                                                                    
+    all = true                                                                                                                                                                          
+[help]                                                                                                                                                                                  
+    autocorrect = prompt                                                                                                                                                                
+[rerere]                                                                                                                                                                                
+    enabled = true                                                                                                                                                                      
+    autoupdate = true
+[rebase]                                                                                                                                                                                
+    autoSquash = true                                                                                                                                                                   
+    autoStash = true                                                                                                                                                                    
+    updateRefs = true                                                                                                                                                                   
+[color]                                                                                                                                                                                 
+    ui = true
