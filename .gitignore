@@ -9,6 +9,9 @@ nbproject
 .project
 .settings
 
+# zed
+.phpactor.json
+
 # windows thumbnail cache
 Thumbs.db
 
