@@ -1,0 +1,5 @@
+regex/i/\.(png|jpe?g)$
+	View=~/.config/mc/mc-img.sh %f
+
+default/*
+	Open=xdg-open %f 2>/dev/null
