@@ -20,7 +20,17 @@ config.keys = {
 -- Tabs font
 config.window_frame = {
   font = wezterm.font { family = 'Roboto', weight = 'Regular' },
+  border_left_width = '1px',
+  border_right_width = '1px',
+  border_bottom_height = '1px',
+  border_top_height = '1px',
+  border_left_color = '#555555',
+  border_right_color = '#555555',
+  border_bottom_color = '#555555',
+  border_top_color = '#555555',
 }
+
+config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 
 -- Make tab colors match color scheme
 local scheme_def = wezterm.color.get_builtin_schemes()[scheme]
