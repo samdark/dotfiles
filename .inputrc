@@ -1,0 +1,4 @@
+set colored-completion-prefix on
+set colored-stats on
+set completion-display-width 0
+set show-all-if-ambiguous on
