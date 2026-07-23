@@ -30,7 +30,7 @@ config.window_frame = {
   border_top_color = '#555555',
 }
 
-config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
+-- config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
 
 -- Make tab colors match color scheme
 local scheme_def = wezterm.color.get_builtin_schemes()[scheme]
