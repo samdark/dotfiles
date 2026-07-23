@@ -11,6 +11,9 @@ config.font_size = 11
 -- Reuse the running GUI instance and open subsequent launches as new tabs.
 config.prefer_to_spawn_tabs = true
 
+-- Avoid desktop notifications for activity in the focused WezTerm window.
+config.notification_handling = "SuppressFromFocusedWindow"
+
 -- Hotkeys
 config.keys = {
     {key="1", mods="ALT", action=wezterm.action{ActivateTab=0}},
