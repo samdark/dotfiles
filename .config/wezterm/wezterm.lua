@@ -8,6 +8,9 @@ config.color_scheme = scheme
 -- Fonts
 config.font_size = 11
 
+-- Reuse the running GUI instance and open subsequent launches as new tabs.
+config.prefer_to_spawn_tabs = true
+
 -- Hotkeys
 config.keys = {
     {key="1", mods="ALT", action=wezterm.action{ActivateTab=0}},
