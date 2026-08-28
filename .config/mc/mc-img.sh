@@ -28,7 +28,7 @@ done
 # Function to display image
 show_image() {
     clear
-    wezterm imgcat "$1"
+    timg "$1"
     echo ""
     echo "Image: $(basename "$1") ($(($2 + 1))/${#IMAGES[@]})"
     echo "← Previous | → Next | Home: First | End: Last | ESC: Quit"
