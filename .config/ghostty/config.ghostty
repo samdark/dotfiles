@@ -1,0 +1,4 @@
+theme = Apple System Colors
+font-size = 11
+copy-on-select = clipboard
+app-notifications = no-clipboard-copy
