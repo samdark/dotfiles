@@ -16,4 +16,9 @@ nbproject
 Thumbs.db
 
 # Mac DS_Store Files
-.DS_Store 
+.DS_Store
+
+**/.claude/settings.local.json
+
+# tmux
+tmux-client-*.log
